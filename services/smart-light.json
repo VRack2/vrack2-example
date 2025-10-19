@@ -1,0 +1,26 @@
+{
+    "devices": [
+        {
+            "id": "ToggleSwitch",
+            "type": "vrack2-example.ToggleSwitch",
+            "options": {  },
+            "connections": [
+                "ToggleSwitch.state -> SmartBulb.power"
+            ]
+        },
+        {
+            "id": "Dimmer",
+            "type": "vrack2-example.Dimmer",
+            "options": {  },
+            "connections": [
+                "Dimmer.level -> SmartBulb.brightness"
+            ]
+        },
+        {
+            "id": "SmartBulb",
+            "type": "vrack2-example.SmartBulb",
+            "options": {  },
+            "connections": []
+        }
+    ]
+}

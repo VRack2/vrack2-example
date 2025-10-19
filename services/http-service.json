@@ -1,0 +1,21 @@
+{
+    "devices": [
+        {
+            "id": "HTTPServer",
+            "type": "vrack2-example.HTTPServer",
+            "options": { 
+                "host": "0.0.0.0",
+                "port": 8090
+             },
+            "connections": [
+                "HTTPServer.memory.request -> MemoryMonitor.get.memory"
+            ]
+        },
+        {
+            "id": "MemoryMonitor",
+            "type": "vrack2-example.MemoryMonitor",
+            "options": {  },
+            "connections": []
+        }
+    ]
+}

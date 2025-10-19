@@ -1,0 +1,10 @@
+{ 
+    "ToggleSwitch": "lighting/ToggleSwitch",
+    "Dimmer": "lighting/Dimmer",
+    "SmartBulb": "lighting/SmartBulb",
+    "HTTPServer": "http-service/HTTPServer",
+    "MemoryMonitor": "http-service/MemoryMonitor",
+    "HeaterSimulator": "smart-thermostat/HeaterSimulator",
+    "SmartThermostat": "smart-thermostat/SmartThermostat",
+    "TemperatureSensor": "smart-thermostat/TemperatureSensor"
+}   

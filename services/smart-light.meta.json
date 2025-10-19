@@ -1,0 +1,8 @@
+{
+    "name": "Умная лампочка",
+    "group": "Сервисы",
+    "autoStart": true,
+    "autoReload": true,
+    "description": "Пример сервиса управления виртуальным освещением",
+    "version": "1.0"
+}

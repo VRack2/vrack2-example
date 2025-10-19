@@ -1,0 +1,8 @@
+{
+    "name": "HTTP-сервер памяти",
+    "group": "Сервисы",
+    "autoStart": true,
+    "autoReload": true,
+    "description": "Пример сервиса для получение JSON данных, например потребление памяти",
+    "version": "1.0"
+}

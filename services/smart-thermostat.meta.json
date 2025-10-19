@@ -1,0 +1,8 @@
+{
+    "name": "Умный термостат",
+    "group": "Сервисы",
+    "autoStart": true,
+    "autoReload": true,
+    "description": "Умный термостат с логированием и уведомлениями",
+    "version": "1.0"
+}

@@ -1,0 +1,26 @@
+{
+    "devices": [
+        {
+            "id": "TemperatureSensor",
+            "type": "vrack2-example.TemperatureSensor",
+            "options": {},
+            "connections": [
+                "TemperatureSensor.temperature -> SmartThermostat.input.temperature"
+            ]
+        },
+        {
+            "id": "SmartThermostat",
+            "type": "vrack2-example.SmartThermostat",
+            "options": {},
+            "connections": [
+                "SmartThermostat.heater.control -> HeaterSimulator.power"
+            ]
+        },
+        {
+            "id": "HeaterSimulator",
+            "type": "vrack2-example.HeaterSimulator",
+            "options": {},
+            "connections": []
+        }
+    ]
+}
